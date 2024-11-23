@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: auto;
+    width: 100%;
+    min-width: 600px;
+    max-width: 1920px;
+    height: auto;
+    zoom: 100%;
+}
+#Intro{
+    width: 100%;
+    height: auto;
+}
+video{
+    width: 98.4%;
+}
+
+/*############################################ Resoluciones ############################################*/
+
+@media screen and (width: 1920px){
+   
+    html, body{
+	    zoom: 100%;
+    }
+	
+}
+
+@media screen and (width: 1680px){
+
+    html, body{
+	    zoom: 93.3%;
+    }
+	
+    video{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 1600px){
+   
+    html, body{
+	    zoom: 91%;
+    }
+
+    video{
+        width: 100%;
+        
+    }
+	
+}
+
+@media screen and (width: 1440px){
+   
+    html, body{
+	    zoom: 86.3%;
+    }
+	
+    video{
+        width: 100%;
+    }
+}
+
+@media screen and (width: 1280px){
+   
+    html, body{
+	    zoom: 81.3%;
+    }
+
+    video{
+        width: 100%;
+    }
+	
+}
+
+@media screen and (width: 1024px){
+   
+    html, body{
+	    zoom: 72.6%;
+    }
+
+    video{
+        width: 100%;
+    }
+	
+}
+
+@media screen and (width: 832px){
+   
+    html, body{
+	    zoom: 65.3%;
+    }
+
+    video{
+        width: 100%;
+    }
+	
+}
+
+@media screen and (width: 800px){
+   
+    html, body{
+	    zoom: 53.46%;
+    }
+
+    video{
+        width: 100%;
+    }
+	
+}

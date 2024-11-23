@@ -1,0 +1,883 @@
+@font-face {
+    font-family: 'cabin';
+    src: url('fonts/CABIN-MEDIUM.ttf');
+    font-weight: normal;
+    font-style: normal;
+	
+  }
+
+@font-face {
+    font-family: 'lovel';
+    src: url('fonts/LOVELYMELODY.ttf');
+    font-weight: normal;
+    font-style: normal;
+	
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+	margin: auto;
+	width: 100%;
+	min-width: 600px;
+    max-width: 1920px;
+	zoom: 84%;
+}
+
+/*############################################ Contenedor ############################################*/
+#contenedor{
+	margin: auto;
+	width: 1920px;	
+}
+
+/*############################################ header ############################################*/
+#header{
+    width: 100%;
+}
+
+#header img{
+	width: 100%;
+}
+
+#Caja-Padre{
+	height: auto;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin: auto; 
+	background-color: #fff;
+}
+
+/*############################################ CAJA 1 ############################################*/
+.Caja-1{
+	width: 100%;
+	height: auto;
+	/*background-color: lawngreen;*/
+}
+
+
+/*############################################ decoracion-flor ############################################*/
+.decoracion-flor{
+	width: 412px;
+	height: 200px;	
+	margin: auto;
+}
+
+#decoracion-flor img{
+	width: 412px;
+	height: 200px;
+}
+
+/*############################################ foto_flor_y_tomi ############################################*/
+#foto_flor_y_tomi{
+	width: 100%;
+}
+
+#foto_flor_y_tomi img{
+	display: block;
+	margin: auto;
+	padding-bottom: 100px;
+	/*background-color: lightcoral;*/
+}
+
+/*############################################ coniciomos ############################################*/
+#coniciomos{
+	display: block;
+	width: 1523px;
+	height: auto;
+	margin: auto;
+}
+
+#decoracion-como-nos-conocimos{
+	display: block;
+	width: 100%;	
+}
+
+#decoracion-como-nos-conocimos img{
+	width: 1523px;
+	margin: auto;
+	padding-bottom: 50px;
+	/*background-color: lightseagreen;*/
+	
+}
+
+#texto{
+	display: block;
+	width: 1120px;
+	margin: auto;
+}
+
+#texto p{
+	display: block;
+	margin: auto;
+	padding-bottom: 150px;
+}
+/*############################################ FIN coniciomos ############################################*/
+
+/*############################################ CAJA 2 ############################################*/
+.Caja-2{
+	width: 100%;
+	height: auto;
+	/*background-color: rebeccapurple;*/
+}
+/*############################################ Sobre Nosotros ############################################*/
+
+/*flor*/
+#flor{	
+	width: 1523px;
+	height: 500px;
+	margin: auto;
+	padding-bottom: 50px;
+	/*background-color: aqua;*/	
+}
+
+#flor .img-flor{
+	display: block;
+	width: 763px;
+	height: 500px;
+	margin: auto;
+	float: left;
+}
+
+#flor .text-flor{
+	display: block;
+	width: 700px;
+	float: right;	
+	/*background-color: red;*/
+	padding-right: 35px;
+}
+
+.text-flor img{
+	display: block;
+	padding-bottom: 25px;
+
+}
+
+.nombre-F{
+	display: block;
+	padding-bottom: 15px;
+}
+
+.texto-F p{
+	width: 100%;
+	height: auto;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	text-indent: 6px; /*sangria primera linea*/
+	color: #4b4d49;
+}
+
+#flor .firma{
+	width: 180px;
+	height: 50px;
+	float: right;
+	text-align: right;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 18px;
+	color: #4b4d49;
+}
+
+/*Tomi*/
+#tomi{
+	width: 1523px;
+	height: 500px;
+	margin: auto;
+	padding-bottom: 100px;
+	/*background-color: darkorchid;*/
+}
+
+#tomi .img-tomi{
+	display: block;
+	width: 763px;
+	height: 500px;
+	float: right;
+	margin: auto;
+}
+
+#tomi .text-tomi{
+	display: block;
+	width: 700px;
+	float: left;	
+	padding-left: 35px;
+}
+
+.text-tomi img{
+	display: block;
+	padding-bottom: 25px;
+}
+
+.nombre-T{
+	display: block;
+	padding-bottom: 15px;
+	float: right;	
+}
+
+.texto-T p{	
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: right;
+	text-align: right;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	text-indent: 6px; /*sangria primera linea*/
+	color: #4b4d49;
+}
+
+#tomi .firma{
+	width: 180px;
+	height: 50px;
+	float: right;
+	text-align: right;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 18px;
+	color: #4b4d49;
+}
+
+/*############################################ CAJA 3 ############################################*/
+.Caja-3{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	/*background-color: rosybrown;*/
+}
+
+/*############################################ decoracion-vivo ############################################*/
+#decoracion-vivo{
+	width: 1523px;
+	padding-bottom: 50px;
+	margin: auto;
+	/*background-color: darkseagreen;*/
+}
+
+#decoracion-vivo img{
+	display: block;
+	margin: auto;
+}
+
+
+/*Cuenta Regresiva*/
+#cuenta{
+	width: 1523px;
+	height: 96px;
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.cuenta-regresiva{	
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+
+.simply-section {	
+	background: #fff;
+	width: 270px;
+	height: 96px;
+	margin: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 148px;
+	font-family: 'lovel';
+	color: #4b4d49;
+}
+
+.simply-word {	
+	font-weight: 300;
+	font-size: 28px;
+	font-family: 'cabin';
+	color:#83857e;
+	letter-spacing: 11px;
+
+}
+
+/*YouTube*/
+#youtube{
+	display: block;
+	width: 1523px;
+	height: 857px;
+	margin: auto;
+}
+
+/*############################################ CAJA 4 ############################################*/
+.Caja-4{
+	width: 100%;
+	height: auto;
+	/*background-color: royalblue;*/
+}
+
+/*Civil*/
+#civil{
+	width: 1523px;
+	height: 500px;
+	margin: auto;
+	padding-bottom: 50px;
+	/*background-color: thistle;*/		
+}
+
+#civil .img-civil{
+	width: 763px;
+	height: 500px;
+	float: left;
+}
+
+#civil .text-civil{
+	width: 700px;
+	float: right;	
+	padding-left: 35px;
+}
+
+.text-civil img{
+	padding-bottom: 25px;
+}
+
+.nombre-C{	
+	padding-bottom: 15px;
+}
+
+.texto-C p{
+	width: 100%;
+	height: auto;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+    color: #4b4d49;
+    text-indent: 6px; /*sangria primera linea*/
+}
+
+.texto-C2 p{
+	width: 100%;
+	height: auto;
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+    color: #4b4d49;
+    font-weight: bold; /*para poner la letra en negro*/
+}
+
+/*Iglesia*/
+#iglesia{
+	width: 1523px;
+	height: 500px;
+	margin: auto;
+	padding-bottom: 100px;
+	/*background-color:hotpink;	*/
+}
+
+#iglesia .img-iglesia{
+	width: 763px;
+	height: 500px;
+	float: right;
+}
+
+#iglesia .text-iglesia{
+	width: 700px;
+	float: left;	
+	padding-left: 35px;
+}
+
+.text-iglesia img{
+	padding-bottom: 25px;
+}
+
+.nombre-I{
+	padding-bottom: 15px;
+	float: right;	
+}
+
+.texto-I p{
+	width: 100%;
+	height: auto;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+    color: #4b4d49;
+    text-indent: 6px; /*sangria primera linea*/
+	text-align: right;
+	float: right;
+}
+
+
+.texto-I2 p{
+	width: 100%;
+	height: auto;
+    text-align: right;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+    color: #4b4d49;
+    font-weight: bold; /*para poner la letra en negro*/
+}
+
+/*############################################ CAJA 5 ############################################*/
+.Caja-5{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	/*background-color: green;*/
+}
+
+/*Galeria*/
+.fotos{
+    width: 1523px;
+	height: auto;
+	margin: auto;
+	/*background-color: thistle;*/	
+}
+
+.fotos img{
+	display: block;
+	margin: auto;
+	padding-bottom: 65px;
+}
+
+#galeria{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+}
+
+ul{
+	display: block;
+	margin-left: 50px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #83857e;
+	margin-right: 120px;
+	font-family: "cabin";
+	letter-spacing: 9px;
+	font-size: 32px;
+}
+
+ul li:hover,
+.activo {
+	color: #4b4d49;
+	cursor: pointer;
+}
+
+/*Fotos*/
+#galeria .fotos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;	
+}
+
+/*CAJA */
+#galeria .caja{
+	display: block;
+	width: 431px;
+	height: 600px;
+	float: left;
+	overflow: hidden;
+}
+
+
+#galeria .caja img{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+}
+
+.caja img:hover{
+	transform: scale(1.5);
+	transition: all ease 1.5s;
+	cursor: pointer;
+}
+
+.foto .caja{
+	display: block;
+	margin-right: 20px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+
+
+
+/*Estilos del modal*/
+
+
+.modal-foto {
+	display: none;
+} 
+
+/*mondo*/
+.modal-foto:target {
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*imagen*/
+.modal-foto .imagen{
+	position: relative;
+	width: 1550px;
+	height: auto;
+    margin: auto;
+	top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-foto .imagen a{
+	color: #4b4d49;
+	font-size: 45px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.modal-foto .imagen a:nth-chiled(2){
+	margin: 0;
+	height: auto;
+	flex-shrink: 2;
+}
+
+.modal-foto .imagen img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	/*max-width: 100%;
+	border: 7px solid #fff;*/
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.modal-foto .cerrar{
+	display: block;
+	position: relative;
+	background: #4b4d49;
+	width: 35px;
+	height: 35px;
+	top: -935px; 
+	right: -765px;
+	margin:  auto;
+	text-align: center;
+	text-decoration: none;
+	font-style: 35px;
+	font-family: 'cabin';
+	color: #fff;
+	border-radius: 50%;
+	line-height: 35px;
+}
+
+
+
+
+
+/*fotos verical*/
+.foto-vertical {
+	display: none;
+} 
+
+/*Fondo de la foto*/
+.foto-vertical:target {
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.foto-vertical .imagen{
+	width: 755px;
+	height: auto;
+    margin: 0 auto;
+	top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.foto-vertical .imagen a{
+	color: #4b4d49;
+	font-size: 45px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.foto-vertical .imagen a:nth-chiled(2){
+	margin: 0;
+	height: auto;
+	flex-shrink: 2;
+}
+
+.foto-vertical .imagen img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 50px;
+	/*max-width: 100%;*/
+	/*border: 7px solid #fff;*/
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.foto-vertical .cerrar{
+	display: block;
+	position: relative;
+	background: #4b4d49;
+	width: 35px;
+	height: 35px;
+	top: -955px; 
+	right: -370px;
+	margin:  auto;
+	text-align: center;
+	text-decoration: none;
+	font-style: 35px;
+	font-family: 'cabin';
+	color: #fff;
+	border-radius: 50%;
+	line-height: 35px;
+}
+
+
+
+/*Footer*/
+#footer{
+	background-image: url("../galeria/pie-de-pagina/pie-de-pagina.jpg");
+	width: 1920px;
+	height: 800px;
+	background-size: 100%;
+}
+
+#footer p{
+	position: relative;
+	width: 550px;
+	top: 745px;
+	height: auto;
+	margin: auto;
+	font-family: 'cabin';
+	font-size: 16px;
+	color: #4b4d49;
+}
+
+/*############################################ Resoluciones ############################################*/
+
+@media screen and (width: 1920px){
+   
+    html, body{
+	    zoom: 100%;
+    }
+	
+}
+
+@media screen and (width: 1680px){
+   
+    html, body{
+	    zoom: 93.3%;
+    }
+
+	.modal-foto .imagen{
+		width: 1650px;
+	}
+
+	.modal-foto .cerrar{
+		top: -1000px; 
+		right: -815px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 830px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -1070px; 
+		right: -400px;
+	}
+	
+}
+
+@media screen and (width: 1600px){
+   
+    html, body{
+	    zoom: 91%;
+    }
+
+	.modal-foto .imagen{
+		width: 1750px;
+	}
+
+	.modal-foto .cerrar{
+		top: -1070px; 
+		right: -865px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 900px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -1170px; 
+		right: -440px;
+	}
+	
+}
+
+@media screen and (width: 1440px){
+   
+    html, body{
+	    zoom: 86.3%;
+    }
+
+	.modal-foto .imagen{
+		width: 1450px;
+	}
+
+	.modal-foto .cerrar{
+		top: -870px; 
+		right: -715px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 720px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -910px; 
+		right: -340px;
+	}
+	
+}
+
+@media screen and (width: 1366px){
+   	
+	.modal-foto .imagen{
+		width: 1250px;
+	}
+
+	.modal-foto .cerrar{
+		top: -740px; 
+		right: -620px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 595px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -710px; 
+		right: -300px;
+	}
+	
+}
+
+@media screen and (width: 1280px){
+   
+    html, body{
+	    zoom: 81.3%;
+    }
+
+	.modal-foto .imagen{
+		width: 1750px;
+	}
+
+	.modal-foto .cerrar{
+		top: -1070px; 
+		right: -865px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 900px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -1170px; 
+		right: -440px;
+	}
+	
+}
+
+@media screen and (width: 1024px){
+   
+    html, body{
+	    zoom: 72.6%;
+    }
+
+	.modal-foto .imagen{
+		width: 1450px;
+	}
+
+	.modal-foto .cerrar{
+		top: -870px; 
+		right: -715px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 720px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -910px; 
+		right: -340px;
+	}
+	
+}
+
+@media screen and (width: 832px){
+   
+    html, body{
+	    zoom: 65.3%;
+    }
+	
+}
+
+@media screen and (width: 800px){
+   
+    html, body{
+	    zoom: 53.46%;
+    }
+	
+	.modal-foto .imagen{
+		width: 1450px;
+	}
+
+	.modal-foto .cerrar{
+		top: -870px; 
+		right: -715px;
+	}
+	
+
+	.foto-vertical .imagen{
+		width: 920px;
+	}
+
+	.foto-vertical .cerrar{
+		top: -1200px; 
+		right: -440px;
+	}
+}
+

@@ -1,0 +1,47 @@
+@media screen and (max-width: 1080px){
+
+	html, body{
+	    zoom: 45%;
+    }
+    
+    .texto-F p{
+        font-size: 16px;
+    }
+    
+    .firma {
+        font-size: 16px;
+    }
+
+    .modal-foto .imagen{
+        position: relative;
+		width: 1850px;
+        top: 150px;
+	}
+
+	.modal-foto .cerrar{
+		top: 255px;  
+		right: -20px;
+        width: 120px;
+        height: 120px;       
+        font-style: 120px;
+        text-shadow: 150px;
+        line-height: 120px;
+	}
+	
+
+	.foto-vertical .imagen{
+        position: relative;
+		width: 1850px;
+        top: 150px;	
+	}
+
+	.foto-vertical .cerrar{
+		top: 255px; 
+		right: -20px;
+	    width: 120px;
+        height: 120px;       
+        font-style: 120px;
+        text-shadow: 150px;
+        line-height: 120px;
+	}
+}

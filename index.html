@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+      <!--IMPORTACIONES-->
+      <link rel="stylesheet" href="css/estilos-intro.css" type="text/css">
+      <meta athor="GattiDev : Ezequiel Gatti" date="13/05/2021">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <!--Temporizador-->
+        <script type="text/javascript">  
+            var num=5; /*Tiempo que dura la intro*/ 
+            function contador() {  
+            num--;  
+            if(num==0) location='casamiento.php';  
+            document.getElementById('seg').innerHTML=num;  
+            }  
+        </script> 
+
+    </head>
+    <body onLoad="setInterval('contador()',1000)">
+
+        <!--Intro de Casamiento-->
+        <div id="Intro">
+          <video src="galeria/intro/IntroCasamiento1.mp4" autoplay muted></video>
+        </div>
+    </body>
+    
+</html>    
+
